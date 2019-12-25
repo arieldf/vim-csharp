@@ -52,7 +52,6 @@ syn keyword csLinq                      from where select group into orderby joi
 syn keyword csAsync                     async await
 
 " Contextual Keywords
-syn match csComment "\(^class\s\)\@<=\w\+"
 syn match csContextualStatement	/\<yield[[:space:]\n]\+\(return\|break\)/me=s+5
 syn match csContextualStatement	/\<partial[[:space:]\n]\+\(class\|struct\|interface\)/me=s+7
 syn match csContextualStatement	/\<\(get\|set\);/me=s+3
